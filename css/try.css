@@ -1,0 +1,506 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa|Crete+Round');
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #decc02
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+
+}
+header {
+    top: 0;
+    width: 100%;
+}
+@supports (position: sticky) {
+    body {
+        padding-top: 0;
+    }
+    
+    header {
+        position: sticky;
+    }
+}
+img {
+    margin-top: -140px;
+}
+
+/*Nav******************************/
+.nav {
+    max-width: 800px;
+}
+.nav li {
+    list-style: none;
+    color: #000;
+    text-transform: uppercase;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    opacity: 0.3;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 10px;
+    line-height: 1.3em;
+    text-align: right;
+    transition: all ease 0.2s;
+}
+.nav li:hover {
+    opacity: 0.8;
+}
+.nav li a {
+    text-decoration: none;
+    color: #000;
+}
+.navbar {
+    position: absolute;
+    height: 80px;
+    width: 100%;
+    transition: s.5s ease;
+    z-index: 100;
+}
+.navbar .nav {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    float: left;
+    margin-right: 5%;
+}
+.navbar .nav .item {
+    list-style: none;
+    display: inline-block;
+    font-size: 13px;
+    padding: 5px;
+    font-weight: 300;
+    line-height: 80px;
+    margin-right: 20px;
+    transition: 0.5s ease;
+    font-family: 'Comfortaa', cursive;
+}
+.navbar .nav .item .contact {
+    display: inline-block;
+    background-color: black;
+    height: 40px;
+    line-height: 30px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s ease;
+}
+.navbar .nav .item a {
+    text-decoration: none;
+    color: inherit;
+}
+.navbar .logo img {}
+.white {
+    color: #fff;
+}
+.fixed.navbar img {
+    display: none;
+}
+.nav .item {
+    line-height: 40px;
+    transition: 0.5s ease;
+}
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: transparent;
+}
+
+/*Mobile toggle SW*/
+#nav-container {
+    position: absolute;
+    margin-top: 5%;
+}
+
+/*Mobile menu SW*/
+nav {
+    text-align: center;
+    width: 100%;
+    background-color: #fff;
+    font-family: 'Comfortaa', cursive;
+}
+nav ul {
+    list-style-type: none;
+    margin-top: ;
+}
+nav ul li {
+    padding: 2%;
+    font-size: 1.8em;
+    color: #000;
+}
+
+/*Nav END******************************/
+/
+/*Main page random color******************************************/
+.main-page h1 {
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Inconsolata', monospace;
+    font-size: 3.8em;
+}
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.janocv{
+   
+}
+
+.janocv h5{
+  margin-top: -30px;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 3px;
+  color: white;
+  text-align: center;
+  font-weight: 100;
+  padding-right: 50px;
+}
+
+.cv{
+  margin-top: -30px;
+  font-family: 'Inconsolata', monospace;
+  letter-spacing: 3px;
+  color: white;
+  text-align: right;
+  font-weight: 100;
+  padding-right: 40px;
+
+}
+
+
+.main-page {
+    margin-top: 100px;
+}
+.main_first {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.main_second {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.main_third {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+.main_fourth {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    background-color: black;
+}
+
+/*Main page random color end******************************************/
+
+/*Study******************************************/
+.secondary {
+    background-color: #A5A89D;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.college {
+    background-color: #148F88;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.course {
+    background-color: #C4AF12;
+    padding-top: 250px;
+    padding-bottom: 100px;
+    border-right: 2px solid black;
+}
+.online {
+    background-color: #008E43;
+    padding-top: 250px;
+    padding-bottom: 100px;
+}
+.about {
+    font-family: 'Comfortaa', cursive;
+}
+.about h2 {
+    text-align: left;
+    font-weight: 100;
+    margin: auto;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    color: black;
+}
+.school {
+    text-align: center;
+    color: #262228;
+    margin-top: -200px;
+}
+.school_finish {
+    padding-left: 20px;
+}
+.studies_logo {
+    color: black;
+}
+.about .text_me {
+    text-align: center;
+    color: #fff;
+    line-height: 35px;
+    letter-spacing: 4px;
+    opacity: 0.7;
+    margin-left: 10%;
+}
+.some {
+    text-align: left;
+    color: #fff;
+    line-height: 50px;
+    margin-top: -100px;
+}
+#arrow_me {
+    font-size: 15px;
+    text-align: left;
+    margin-left: 8%;
+    margin-top: 1.5%;
+    margin-bottom: 1.5%;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    border: 1px solid #ddd;
+    text-align: center;
+    margin-top: 50px;
+    background-color: transparent;
+}
+.list-group {
+    padding-left: inherit;
+    margin-bottom: 20px;
+}
+
+/*Studies END******************************************/
+
+/*websites******************************************/
+.websites {
+    min-height: 100%;
+    background-color: #3E474F;
+    font-family: 'Comfortaa', cursive;
+}
+.dronee {
+    padding-top: 250px;
+    padding-bottom: 20px;
+}
+.gihonfed_r {
+    padding-top: 250px;
+    padding-bottom: 20px;
+    border-right: 2px solid white;
+
+}
+.websites h1 {
+    text-align: center;
+    font-weight: 0;
+    color: #fff;
+    margin-top: 120px;
+}
+.content_text {
+    text-align: center;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 35px;
+}
+.text-o {
+    background-color: white;
+    color: black;
+}
+
+/*websites sections END******************************************/
+
+/*Experience ******************************************/
+.experience {
+    font-family: 'Comfortaa', cursive;
+    background-color: #1e1e1e;
+    min-height: 100%;
+    padding-bottom: 270px;
+}
+.exp-border {
+    padding-top: 250px;
+    border-right: 2px solid white;
+}
+.exp-text {
+    padding-top: 250px;
+}
+.experience h1 {
+    text-align: center;
+    color: #fff;
+    font-weight: 0;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    margin-top: -100px;
+    margin-left: 20px;
+}
+.experience h5 {
+    text-align: center;
+    margin-top: -20px;
+}
+.develop {
+    padding-top: 250px;
+    border-left: 2px solid white;
+    padding-bottom: 20px;
+}
+.super {
+    padding-top: 250px;
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+}
+
+/*Experience end ******************************************/
+
+/*Contact ******************************************/
+.contact {
+    background-color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.contact img {
+    margin-top: -90px;
+}
+.contact h5 {
+    font-family: 'Comfortaa', cursive;
+    opacity: 0.3;
+    color: #000;
+    text-align: center;
+    transition: all ease 0.2s;
+    margin-top: -50px;
+}
+.contact h5:hover {
+    opacity: 0.8;
+}
+
+/*Media Query******************************************/
+@media only screen and (min-width: 320px) and (max-width: 989px) {
+    /*about******************************************/
+    
+    .about .text_me {
+        margin-left: 1%;
+    }
+    
+    .some {
+        margin-top: 150px;
+        text-align: center;
+    }
+    
+    .row h4 {
+        text-align: center;
+        color: #fff;
+    }
+    
+    #arrow_me {
+        text-align: center;
+        margin-left: 0%;
+    }
+    
+    .school_finish {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .websites {
+        min-height: 100%;
+        background-color: #3E474F;
+        font-family: 'Comfortaa', cursive;
+    }
+    
+    .dronee {
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+    
+    .gihonfed_r {
+        padding-top: 50px;
+        padding-bottom: 20px;
+        border-right: 0px solid white;
+    }
+    
+    .websites h1 {
+        text-align: center;
+        font-weight: 0;
+        color: #fff;
+        margin-top: 0px;
+    }
+    
+    .content_text {
+        text-align: center;
+        font-weight: 400;
+        color: #fff;
+        letter-spacing: 3px;
+        line-height: 35px;
+    }
+    
+    .text-o {
+        background-color: white;
+        color: black;
+    }
+    
+    .exp-border {
+        padding-top: 250px;
+    }
+    
+    .exp-text {
+        padding-top: 250px;
+    }
+    
+    .experience h1 {
+        text-align: center;
+        color: #fff;
+        font-weight: 0;
+        margin-bottom: 50px;
+        letter-spacing: 2px;
+        margin-top: -100px;
+        margin-left: 20px;
+    }
+    
+    .experience h5 {
+        text-align: center;
+        margin-top: -20px;
+    }
+    
+    .develop {
+        padding-top: 250px;
+        padding-bottom: 20px;
+        border-left: 0px solid white;
+    }
+    
+    .super {
+        padding-top: 250px;
+        padding-bottom: 20px;
+        border-bottom: 0px solid white;
+    }
+    /*about/ END******************************************/
+    /*Parallax none mobile******************************************/
+    
+    .exp-text {
+        padding-top: 0px;
+    }
+    .countPercentageTrap, .countPercentageJs, .countPercentageHtml, .countPercentageCss{
+        text-align: center;
+    }
+    
+    .main-page,
+    .websites,
+    .about {
+        background-attachment: scroll;
+    }
+    /*Parallax none mobile/ END******************************************/
+}
