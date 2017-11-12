@@ -1,4 +1,4 @@
-$(document).ready();
+ $(document).ready();
 var newColor = '#'+(0x1000000+(Math.random())*0xffffff).toString(16).substr(1,6);
 
 $(".one").animate({backgroundColor: newColor}, 1000);

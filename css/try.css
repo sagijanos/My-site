@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Comfortaa|Crete+Round');
+ @import url('https://fonts.googleapis.com/css?family=Comfortaa|Crete+Round');
 a {
     text-decoration: none;
     color: #fff;
@@ -300,7 +300,69 @@ nav ul li {
 .dronee {
     padding-top: 250px;
     padding-bottom: 20px;
+    border-right: 1px solid #808080;
 }
+
+.super .sonic{
+    margin-top: -190px;
+    margin-left: 30px;
+    transition: transform .5s cubic-bezier(1,.14,.83,.67);
+    
+}
+
+.super .sonic:hover{
+    transform: rotate(360deg);
+}
+
+.develop .drone{
+    margin-top: -190px;
+    
+}
+
+.develop p{
+    color: white;
+    text-align: center;
+}
+
+.develop p a {
+     text-decoration: none;
+    color: white;
+}
+
+.develop p a:hover{
+     text-decoration: none;
+    color: white;
+}
+
+
+
+
+.super p{
+    color: white;
+    margin-left: 45px;
+}
+
+.super p a{
+    text-decoration: none;
+    color: white;
+}
+
+.super p a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
+
+
+.dronee_r p {
+   text-align: right;
+    color: #808080;
+}
+
 .gihonfed_r {
     padding-top: 250px;
     padding-bottom: 20px;
