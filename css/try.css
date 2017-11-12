@@ -223,7 +223,6 @@ nav ul li {
     background-color: #C4AF12;
     padding-top: 250px;
     padding-bottom: 100px;
-    border-right: 2px solid black;
 }
 .online {
     background-color: #008E43;
@@ -304,8 +303,8 @@ nav ul li {
 }
 
 .super .sonic{
-    margin-top: -190px;
-    margin-left: 30px;
+    margin-top: -160px;
+    margin-left: 70px;
     transition: transform .5s cubic-bezier(1,.14,.83,.67);
     
 }
@@ -353,20 +352,30 @@ nav ul li {
 }
 
 
+.gihonfed_r{
+     padding-top: 0px;
+    
+}
 
+.gihonfed_r img{
+     margin-top: 100px;
+    
+}
 
-
-
+.gihonfed_r p {
+     color: white;
+    margin-left:;
+}
 
 .dronee_r p {
    text-align: right;
     color: #808080;
 }
 
-.gihonfed_r {
+.center {
     padding-top: 250px;
     padding-bottom: 20px;
-    border-right: 2px solid white;
+    border-right: 1px solid white;
 
 }
 .websites h1 {
@@ -387,6 +396,17 @@ nav ul li {
     color: black;
 }
 
+.develop {
+    padding-top: 250px;
+    border-left: 1px solid white;
+    padding-bottom: 41px;
+}
+.super {
+    padding-top: 250px;
+    border-bottom: 1px solid white;
+    padding-bottom: 40px;
+}
+
 /*websites sections END******************************************/
 
 /*Experience ******************************************/
@@ -398,7 +418,7 @@ nav ul li {
 }
 .exp-border {
     padding-top: 250px;
-    border-right: 2px solid white;
+    border-right: 1px solid white;
 }
 .exp-text {
     padding-top: 250px;
@@ -416,16 +436,7 @@ nav ul li {
     text-align: center;
     margin-top: -20px;
 }
-.develop {
-    padding-top: 250px;
-    border-left: 2px solid white;
-    padding-bottom: 20px;
-}
-.super {
-    padding-top: 250px;
-    border-bottom: 2px solid white;
-    padding-bottom: 20px;
-}
+
 
 /*Experience end ******************************************/
 
